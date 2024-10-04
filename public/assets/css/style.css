@@ -1,0 +1,358 @@
+.d-none {
+    display: none !important;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Pagination style */
+.pagination-nav span.relative {
+    display: flex;
+}
+
+.pagination-nav nav>div.hidden {
+    column-gap: 20px;
+}
+
+/* Product list page */
+.product-list-image {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.product-list-image img {
+    height: 100%;
+    margin: auto;
+}
+
+.zoom-in:hover {
+    box-shadow: none;
+}
+
+.top-10 {
+    top: 10px;
+}
+
+.right-25 {
+    right: 25px;
+}
+
+.vendor-detail-print-label-btn:disabled {
+    opacity: 1;
+    background-color: grey;
+    border: none;
+}
+
+.vendor-detail-print-label-btn:disabled:hover::before {
+    content: attr(title);
+    position: absolute;
+    background-color: #B91C1C;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 1;
+    top: 30px;
+    left: 20px;
+}
+
+/* main wrapper */
+.wrapper {
+    padding-left: 1.5rem;
+}
+
+body.main>.flex>.wrapper>.content {
+    margin-top: 0;
+}
+body.main>.flex>.wrapper>.content:after, body.main>.flex>.wrapper>.content:before {
+    display: none;
+}
+
+/* Dropshipping page */
+.table-report img.ship_svg {
+    box-shadow: none;
+}
+
+.table-report td.ship_td>div {
+    width: 185px;
+}
+
+table.dropship-table td, table.vendor-dropship-table td {
+    padding: 1.75rem 1.25rem;
+    vertical-align: top;
+}
+
+/* Dropshipping rate modal */
+.modal-rates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-rate-label {
+    display: flex;
+    column-gap: 20px;
+}
+
+.modal-rate-label .ship_svg {
+    width: 50px;
+}
+
+.modal-rate-button-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Balance page */
+.form-check-input {
+    border: 1.5px solid #333 !important;
+}
+
+.mark-btn {
+    width: max-content;
+}
+
+.intro-y.overflow-auto {
+    width: 100%;
+    overflow: auto;
+}
+
+.balance-days-left {
+    display: block;
+    width: max-content;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.hover-green:hover {
+    color: green;
+}
+
+span.order-variant-title {
+    display: inline-block;
+    padding: 3px 8px;
+    background: rgb(59 130 246 / .5);
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+a.disabled-link {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.dropdown-products-list.dropdown-item {
+    cursor: default;
+}
+
+.dropdown-products-list.dropdown-item:hover {
+    background-color: #fff;
+}
+
+.dropdown-menu {
+    width: fit-content !important;
+}
+
+.dropdown-menu *  {
+    caret-color: transparent;
+}
+
+button {
+    caret-color: transparent;
+}
+
+.delete-vendor {
+    caret-color: transparent;
+    cursor: pointer;
+}
+
+#provider_detail_update_form div {
+    caret-color: transparent;
+}
+
+.sync-error-alert {
+    padding: 10px 20px;
+}
+
+.dark-mode-switcher, .color-switch {
+    display: none !important;
+}
+
+#admin-change-password-form {
+    display: contents;
+}
+
+.filter-bar {
+    align-items: end;    
+}
+
+.pickup-filter-check {
+    margin-top: 12px;
+}
+
+.pickup-filter-check input[type="checkbox"] {
+    border-color: #e5e7eb !important;
+}
+
+.table-report:not(.table-report--bordered):not(.table-report--tabulator) td {
+    box-shadow: none;
+}
+
+select[multiple] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    overflow: auto;
+    background: transparent;
+}
+
+select[multiple] option:checked, select[multiple] option:active {
+    background-color: #cfeae7;
+}
+
+.bg-black {
+    background: #000;
+}
+
+table.dropship-table.table-report tr.intro-x, table.vendor-dropship-table.table-report tr.intro-x {
+    height: 160px;
+}
+
+table.table-report tr td.tr-row {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: unset;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.label-purchase-btn {
+    background: #00195F;
+}
+
+.btn-shadow {
+    box-shadow: 0px 3px 5px #0000000b;
+}
+
+.fee-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fee-reason {
+    width: 200px;
+}
+
+.gap-custom-3 {
+    gap: 3px;
+}
+
+@media only screen and (min-width: 1280px) {
+    .m-only {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .d-only {
+        display: none !important;
+    }
+    .tr-top-row {
+        z-index: 1;
+        position: relative;
+    }
+    .tr-mid-row {
+        position: absolute;
+        bottom: 50px;
+        height: 110px;
+        left: 0;
+        width: 100%;
+        border: unset;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .btn {
+        padding: 0.3rem 0.4rem;
+    }
+    .w-fit {
+        width: fit-content;
+    }
+    table.dropship-table.table-report tr.intro-x, table.vendor-dropship-table.table-report tr.intro-x {
+        height: 207px;
+    }
+    table.dropship-table td, table.vendor-dropship-table td {
+        padding: 0.8rem 0.7rem;
+    }
+    .filter-bar {
+        align-items: unset;    
+    }
+    .overview-report-box {
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+    #date_range {
+        width: 100%;
+    }
+    table tr {
+        vertical-align: baseline;
+    }
+    table.table-dropship-detail tr {
+        vertical-align: middle;
+    }
+    tr.align-middle {
+        vertical-align: middle;
+    }
+    .modal-rates, .modal-rate-label {
+        display: grid;
+        row-gap: 10px;
+    }
+    .additional-note {
+        width: 100% !important;
+    }
+    .delivery-date-alert-vendor {
+        display: grid;
+        text-align: center;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .delivery-date-alert-vendor>div {
+        position: unset;
+    }
+    .delivery-date-alert-vendor>a {
+        margin: 0;
+    }
+    .vendor-details-nav {
+        display: grid;
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    table.dropship-table td, table.vendor-dropship-table td {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 384px) {
+    table.dropship-table td, table.vendor-dropship-table td {
+        font-size: 10px;
+    }
+}
+
